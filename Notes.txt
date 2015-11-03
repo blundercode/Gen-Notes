@@ -1,0 +1,129 @@
+// Interview Questions from Joe Eames:
+
+	
+// What is semantic HTML and is it important?
+	--encourages web designers to write code that describes the content rather than how that content should look. For disabled people and renders faster
+// What’s the difference between relative and absolute positioning in CSS?
+
+// Static vs Fixed Positioning CSS?
+	
+// Explain to me the Box Model in CSS.
+
+// Describe how scoping works in JavaScript.
+	--http://stackoverflow.com/questions/500431/what-is-the-scope-of-variables-in-javascript
+	--http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/
+	--A variable’s scope is the context in which the variable exists. The scope specifies from where you can access a variable and whether you have access to the variable in that context. Variables have either a local scope or a global scope
+	
+// Explain how to handle errors in JS.
+	--In sort it summarises
+	1.Assume your code will fail
+	2.Log errors to the server
+	3.You, not the browser, handle errors
+	4.Identify where errors might occur
+	5.Throw your own errors
+	6.Distinguish fatal versus non-fatal errors
+	7.Provide a debug mode
+	
+// What does the statement ‘use strict’ do?
+	--It catches some common coding bloopers, throwing exceptions.
+	It prevents, or throws errors, when relatively "unsafe" actions are taken (such as gaining access to the global object).
+	It disables features that are confusing or poorly thought out.
+	
+// How does inheritance work in JavaScript? What is a prototype in JavaScript?
+	--https://alexsexton.com/blog/2013/04/understanding-javascript-inheritance/
+	--Inherited children inherit their parent's behaviour (state possibilities and functionality). These children can of course add additional behaviour or override existing.
+	
+// What’s the difference between an Array and Object in JavaScript?
+	--In JS arrays are objects, just slightly modified (with a few more functions).
+	
+// What’s the difference between == and === in JavaScript?
+	--The == operator will compare for equality after doing any necessary type conversions. The === operator will not do the conversion, so if two values are not the same type === will simply return false. It's this case where === will be faster, and may return a different result than ==. In all other cases performance will be the same.
+	
+// What is hoisting in JavaScript?
+	--Language-defined: All scopes are, by default, given the names this and arguments.
+	Formal parameters: Functions can have named formal parameters, which are scoped to the body of that function.
+	Function declarations: These are of the form function foo() {}.
+	Variable declarations: These take the form var foo;.
+	--Function declarations and variable declarations are always moved (“hoisted”) invisibly to the top of their containing scope by the JavaScript interpreter. Function parameters and language-defined names are, obviously, already there
+
+// What is the global object in JavaScript?
+	--standard built-in objects
+	--widely used – remember that in Javascript, the members of an object are typically referred to as “properties”. These properties include certain functions and even other objects, and are all available to any given Javascript program
+		
+// What is a global variable in JavaScript?
+	-- is a variable with global scope, meaning that it is visible (hence accessible) throughout the program
+	
+// What is a closure in JavaScript and why are they important?
+	-- when you put stuff inside other stuff then you can use that stuff within the stuff without polluting the global space
+	
+// What is a callback in JavaScript?
+		--When we call a function using another function and we can execute the passed in function in it
+		
+// What is event bubbling in the DOM?
+
+// In Angular, what does scope do?
+	--A $scope is an object that ties a view (a DOM element) to the controller. In the Model-View-Controller structure, this $scope object becomes the model. It provides an execution context that is bound to the DOM element (and its children).
+	--just a javascript object
+
+// In Angular, what is a controller?
+	--Set up the initial state of the $scope object.
+	Add behavior to the $scope object.
+	-- var myApp = angular.module('myApp',[]);
+
+	myApp.controller('GreetingController', ['$scope', function($scope) {
+  		$scope.greeting = 'Hola!';
+	}]);
+
+// In Angular, what is a service? How do you create one?
+	--Angular services are substitutable objects that are wired together using dependency injection (DI). You can use services to organize and share code across your app
+	--To use an Angular service, you add it as a dependency for the component (controller, service, filter or directive) that depends on the service. Angular's dependency injection subsystem takes care of the rest.
+	
+// In Angular, what is a directive? How do you specify a directive?
+	--this is where we are going to do all the heavy lifting and write the code that manipulates the dom elements.
+
+// How does Angular’s dirty checking work?
+	--http://ryanclark.me/how-angularjs-implements-dirty-checking/
+
+// What is one thing you’ve learned in the last week?
+
+// Tell me about the last time you solved a difficult technical challenge.
+
+// What development experts do you follow on twitter or G+ or blogs?
+
+// Explain the difference between shared, inherited, and isolate scope in Angular.
+
+// In Angular, what is a filter?
+	--Things we can add to manipulate the dom.
+	
+// In Angular, what are modules?
+	--You can think of a module as a container for the different parts of your app – controllers, services, filters, directives, etc.
+	
+// In Angular, what is the difference between ng-show, ng-hide, and ng-if?
+
+// What is the relationship between angular and jQuery?
+
+// In Angular, what explain the following directives: ng-app, ng-controller, ng-view, ng-model
+
+// Explain routing in angular. Which module is required to use routing?
+	--ng-route ui-router
+	
+// Explain how dependency injection works in Angular.
+	--The Angular injector subsystem is in charge of creating components, resolving their dependencies, and providing them to other components as requested.
+	
+// In Angular, what is the digest cycle?
+
+// What is Karma?
+
+// What’s the purpose of ‘new’ in JavaScript?
+
+// What is the difference between undefined and null?
+
+// What’s the difference between setTimeout and setInterval?
+
+// What does Object.create do?
+
+// What does the ‘this’ keyword do in javaScript?
+
+
+/// pluralsight login
+	--gabriel@cabrejas.net / Pluralsightgabro01
